@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="tga.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="RotateImage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RotateImage.cpp">
+    <ClCompile Include="tga.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

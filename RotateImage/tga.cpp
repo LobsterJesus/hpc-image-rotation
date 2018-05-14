@@ -4,12 +4,12 @@
 #include <stdlib.h>
 #include <iostream>
 #include <fstream>
+#include "stdafx.h"
 
 // Uncompressed TGA Header
 const unsigned char uTGAcompare[12] = {0,0, 2,0,0,0,0,0,0,0,0,0};
 // Compressed TGA Header
 const unsigned char cTGAcompare[12] = {0,0,10,0,0,0,0,0,0,0,0,0};
-
 
 bool tga::saveTGA(const TGAImage& image, const char * filename)
 {
