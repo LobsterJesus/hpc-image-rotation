@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <iostream>
 #include <fstream>
-#include "stdafx.h"
 
 // Uncompressed TGA Header
 const unsigned char uTGAcompare[12] = {0,0, 2,0,0,0,0,0,0,0,0,0};

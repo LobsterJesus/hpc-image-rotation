@@ -34,5 +34,6 @@
     <None Include="RotateImage.cl">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="Add.cl" />
   </ItemGroup>
 </Project>
