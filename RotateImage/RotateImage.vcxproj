@@ -149,7 +149,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="targetver.h" />
     <ClInclude Include="tga.h" />
   </ItemGroup>
   <ItemGroup>
